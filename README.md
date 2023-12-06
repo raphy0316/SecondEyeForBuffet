@@ -13,18 +13,18 @@ APP PREVIEW
  <img src="https://github.com/raphy0316/SecondEyeForBuffet/assets/26518769/4266e3bc-a3fc-4f52-801d-cea48c5214b2" width="103" height="181"/>
  <img src="https://github.com/raphy0316/SecondEyeForBuffet/assets/26518769/797c2482-351f-4b06-b659-4c5758c0aa9f" width="103" height="181"/>
 
-Intention of the plan.
+Intention of the plan.<br>
 A service research project to make buffet accessible to the blind
 
-Configuration
+Configuration<br>
 Server, RFID, App
 
-Key functions
+Key functions<br>
 It is divided into a vendor's use and a USER's use, and the information registered by the vendor on the RFID chip is played by a blind user when he approaches. The information consists of food names, allergy information, and food descriptions, and the chip registered as an obstacle guides the risk of collision information. Users can select the information they want to know by touching the four directions divided into the upper left, upper right, lower left, and lower right of the mobile phone. For the visually impaired, the GUI for users has been simplified as much as possible.
 
-Features to be added in the future
-1, Indoor navigation function that allows the blind to find their way
-2, Development of chair robots that can be used by visually impaired people when moving
-3, Using implemented chair robots, indoor navigation, and databases, the implementation of functions to automate food refills in restaurants and provide statistical information related to food consumption as a benefit of the vendor's use of the app
+Features to be added in the future<br>
+1, Indoor navigation function that allows the blind to find their way<br>
+2, Development of chair robots that can be used by visually impaired people when moving<br>
+3, Using implemented chair robots, indoor navigation, and databases, the implementation of functions to automate food refills in restaurants and provide statistical information related to food consumption as a benefit of the vendor's use of the app<br>
 
 You can't run the details because I am not currently running the server, but you can try running the app through the appfile-app.apk installation.
