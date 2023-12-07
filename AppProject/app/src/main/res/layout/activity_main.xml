@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+                name="vm"
+                type="com.jjmin.mbliecontent.ui.main.MainViewModel"/>
+    </data>
+
+    <FrameLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".ui.main.MainActivity">
+
+        <TextView
+                android:id="@+id/mainNextBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="다음으로"
+                android:onClick="@{() -> vm.NextClick()}"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_gravity="right|top"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="40dp"
+                android:textColor="@android:color/black"/>
+
+        <com.jjmin.mbliecontent.ui.sticker.StickerLayout
+                android:id="@+id/sl_sticker_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+        <!--<com.lcw.library.stickerview.StickerLayout-->
+                <!--android:id="@+id/sl_sticker_layout"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent" >-->
+
+        <!--</com.lcw.library.stickerview.StickerLayout>-->
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_margin="20dp"
+                android:src="@drawable/ic_add_24dp"
+                android:onClick="@{vm.FabClick}"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"/>
+    </FrameLayout>
+</layout>
