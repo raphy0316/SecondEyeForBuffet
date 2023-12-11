@@ -17,7 +17,7 @@ Intention of the plan.<br>
 A service research project to make buffet accessible to the blind
 
 Configuration<br>
-Server, RFID, App
+Node.js Server, RFID, App
 
 Key functions<br>
 It is divided into a vendor's use and a USER's use, and the information registered by the vendor on the RFID chip is played by a blind user when he approaches. The information consists of food names, allergy information, and food descriptions, and the chip registered as an obstacle guides the risk of collision information. Users can select the information they want to know by touching the four directions divided into the upper left, upper right, lower left, and lower right of the mobile phone. For the visually impaired, the GUI for users has been simplified as much as possible.
