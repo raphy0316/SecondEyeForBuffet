@@ -1,5 +1,5 @@
 # SecondEyeForBuffet_APP
- Mobile Contest entries, Buffet support service for the visually impaired
+Gold award on 2019 Mobile Contest, Buffet support service for the visually impaired
 
 APP PREVIEW
 <br>
