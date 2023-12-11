@@ -25,7 +25,7 @@
 ## Project Components:<br>
 1, Server<br>
 2, App<br>
-3, RFID Chips<br>
+3, RFID<br>
 
 ## Key Features:<br>
  The system distinguishes between seller and user modes. When a blind user approaches, the seller's RFID chip information is retrieved from the server. Information includes food names, allergy details, and descriptions. Chips designated as obstacles provide collision risk alerts. Users can touch the top-left, top-right, bottom-left, and bottom-right corners of the phone screen to select the desired information. The user interface is simplified for accessibility.
