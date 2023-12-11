@@ -13,18 +13,28 @@ APP PREVIEW
  <img src="https://github.com/raphy0316/SecondEyeForBuffet/assets/26518769/4266e3bc-a3fc-4f52-801d-cea48c5214b2" width="103" height="181"/>
  <img src="https://github.com/raphy0316/SecondEyeForBuffet/assets/26518769/797c2482-351f-4b06-b659-4c5758c0aa9f" width="103" height="181"/>
 
-Intention of the plan.<br>
-A service research project to make buffet accessible to the blind
+Project Initiation:<br>
+ The project "Second Eye for Buffet" originated from observing a visually impaired student struggling to attend a friend's birthday party. Witnessing her distress, the project was initiated with the aim of providing assistance and making buffet experiences more accessible for visually impaired individuals.
 
-Configuration<br>
-Node.js Server, RFID, App
+Significance:<br>
+ Participating in events such as weddings and birthdays held in buffet settings is challenging for visually impaired individuals, hindering their social activities. Recognizing this, the project seeks to enable visually impaired individuals to independently navigate and enjoy buffet experiences, aligning with cultural practices in various countries, including Korea.
 
-Key functions<br>
-It is divided into a vendor's use and a USER's use, and the information registered by the vendor on the RFID chip is played by a blind user when he approaches. The information consists of food names, allergy information, and food descriptions, and the chip registered as an obstacle guides the risk of collision information. Users can select the information they want to know by touching the four directions divided into the upper left, upper right, lower left, and lower right of the mobile phone. For the visually impaired, the GUI for users has been simplified as much as possible.
+Project Objectives:<br>
+ The core of this system is to facilitate independent and unobtrusive buffet experiences for visually impaired individuals. Additionally, incorporating features that benefit buffet operators is crucial for convincing them to adopt the system.
 
-Features to be added in the future<br>
-1, Indoor navigation function that allows the blind to find their way<br>
-2, Development of chair robots that can be used by visually impaired people when moving<br>
-3, Using implemented chair robots, indoor navigation, and databases, the implementation of functions to automate food refills in restaurants and provide statistical information related to food consumption as a benefit of the vendor's use of the app<br>
+Project Components:<br>
+1, Server<br>
+2, App<br>
+3, RFID Chips<br>
 
-You can't run the details because I am not currently running the server, but you can try running the app through the appfile-app.apk installation.
+Key Features:<br>
+ The system distinguishes between seller and user modes. When a blind user approaches, the seller's RFID chip information is retrieved from the server. Information includes food names, allergy details, and descriptions. Chips designated as obstacles provide collision risk alerts. Users can touch the top-left, top-right, bottom-left, and bottom-right corners of the phone screen to select the desired information. The user interface is simplified for accessibility.
+
+Future Additions:<br>
+1, Indoor Navigation for Visually Impaired:<br>
+Enables visually impaired individuals to navigate indoors.<br>
+2, Chair Robot for Accurate Guidance:<br>
+Develops a chair robot for precise navigation during movement.<br>
+3, Automated Buffet Refills and Statistical Insights:<br>
+Utilizes the chair robot, indoor navigation, and database systems to automate buffet refills and provide statistics related to food consumption.<br>
+Note: Currently, the server is not operational, and detailed execution cannot be demonstrated. However, you can explore the app's functionality by installing the appfile-app.apk.
