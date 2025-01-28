@@ -31,10 +31,8 @@
  The system distinguishes between seller and user modes. When a blind user approaches, the seller's RFID chip information is retrieved from the server. Information includes food names, allergy details, and descriptions. Chips designated as obstacles provide collision risk alerts. Users can touch the top-left, top-right, bottom-left, and bottom-right corners of the phone screen to select the desired information. The user interface is simplified for accessibility.
 
 ## Future Additions:<br>
-### 1, Indoor Navigation for Visually Impaired:<br>
-Enables visually impaired individuals to navigate indoors.<br>
-### 2, Chair Robot for Accurate Guidance:<br>
+### 1, Chair Robot for Accurate Guidance:<br>
 Develops a chair robot for precise navigation during movement.<br>
-### 3, Automated Buffet Refills and Statistical Insights:<br>
+### 2, Automated Buffet Refills and Statistical Insights:<br>
 Utilizes the chair robot, indoor navigation, and database systems to automate buffet refills and provide statistics related to food consumption.<br>
 Note: Currently, the server is not operational, and detailed execution cannot be demonstrated. However, you can explore the app's functionality by installing the appfile-app.apk.
